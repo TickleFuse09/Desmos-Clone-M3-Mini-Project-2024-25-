@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+}
+
+.calculator {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#graph {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+#equation-input {
+    width: 100%;
+    max-width: 300px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#plot-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#plot-button:hover {
+    background-color: #0056b3;
+}
